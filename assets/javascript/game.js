@@ -21,6 +21,7 @@ $("#loss").text("Losses : " + losses);
 
 function reset () {
     randomNumber = (Math.floor(Math.random() * 101) + 19);
+    $("#random").text(randomNumber);
     console.log(randomNumber);
     var purple = Math.floor(Math.random()*11+1)
     var blue = Math.floor(Math.random()*11+1)
@@ -34,13 +35,13 @@ function reset () {
 function winner () {
     alert ("YOU WIN!!!!!");
     wins++;
-    $("win").text("Wins : " + wins);
+    $("#win").text("Wins : " + wins);
     reset();
 };
 function loser () {
     alert ("YOU LOSE!!! >:(");
-    losses--;
-    $("loss").text("Losses : " + losses);
+    losses++;
+    $("#loss").text("Losses : " + losses);
     reset();
 };
 //set up buttons 
