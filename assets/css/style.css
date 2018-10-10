@@ -1,0 +1,107 @@
+body {
+    background-image: url(../images/congruent_pentagon.png);
+    position: fixed;
+}
+
+h1 {
+    color:white;
+    background-color: sienna;
+    text-align: center;
+    margin-right: 1150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+
+.instructions {
+    background-color: wheat;
+    color: green;
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 1000px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 80px;
+    margin-top: 5px;
+}
+
+#random {
+    color: blueviolet;
+    background-color: orange;
+    margin-right: 1250px;
+    margin-top: 5px;
+    padding:10px;
+    padding-bottom: 55px;
+    margin-bottom: 5px;
+}
+
+.winsLosses {
+    background-color: aqua;
+    margin-left: 180px;
+    margin-right: 1120px;
+    margin-top: -97px;
+    margin-bottom: 5px;
+    padding-top: 6px;
+    padding: 10px;
+    padding-bottom: 31px;
+    padding-right: 15px;
+    color: green;
+
+}
+
+#win {
+    padding-bottom: 15px;
+}
+
+#button1 {
+    height: 60px;
+    width: 60px;
+    margin-top: 0px;
+    border: 1px solid blueviolet;
+    margin-right: 5px;
+}
+
+#button2 {
+    height: 60px;
+    width: 60px;
+    margin-top: 0px;
+    border: 1px solid blueviolet;
+    margin-right: 5px;
+}
+
+#button3 {
+    height: 60px;
+    width: 60px;
+    margin-top: 0px;
+    border: 1px solid blueviolet;
+    margin-right: 5px;
+}
+
+#button4 {
+    height: 60px;
+    width: 60px;
+    margin-top: 0px;
+    border: 1px solid blueviolet;
+    margin-right: 5px;
+}
+
+#your {
+    background-color: #00a2a2;
+    color: white;
+    font-size: 16px;
+    margin-right: 1200px;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+#score {
+    background-color: #00a2a2;
+    color: white;
+    margin-right: 1200px;
+    padding: 10px;
+    padding-bottom: 55px;
+    margin-top: 5px;
+}
