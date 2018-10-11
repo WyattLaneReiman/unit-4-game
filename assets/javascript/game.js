@@ -28,7 +28,7 @@ function reset () {
     var green = Math.floor(Math.random()*11+1)
     var pink = Math.floor(Math.random()*11+1)
     userTotal = 0;
-    $("#your").text("Your total score is : " + userTotal);
+    $("#score").text(userTotal);
     console.log(purple, blue, green, pink);
 };
 
